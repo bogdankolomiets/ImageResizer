@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply from: 'maven_push.gradle'
 
 android {
     compileSdkVersion 24
@@ -17,8 +16,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
 
-dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
+apply from: 'maven_push.gradle'

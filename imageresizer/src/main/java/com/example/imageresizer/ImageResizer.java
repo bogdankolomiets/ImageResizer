@@ -8,7 +8,6 @@ import android.widget.RelativeLayout;
 /**
  * @author Bogdan Kolomiets
  * @version 1
- * @date 02.07.16
  */
 public class ImageResizer {
   private static float sCoeficient;
